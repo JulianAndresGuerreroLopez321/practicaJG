@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITAT24</title>
+</head>
+<body>
+    <h1>completa el siguiente formulario</h1>
+    <br>
+    <p>¿Que modelo de auto quieres?</p>
+    <select name="ModelCar">
+        <option value="" aria-label="model" disabled selected>seleccionar</option>
+        <option value="0">R4</option>
+        <option value="1">R5</option>
+        <option value="2">SR1</option>
+    </select>
+<br><br><br>
+    <fieldset>
+        <legend>Potencia</legend>
+        <p>debe ser entre 50-100 hp</p>
+        <label>
+            Potencia
+            <input type="number">
+        </label>
+
+        <label>
+            potencia Maxima
+            <input type="number">
+        </label>
+    </fieldset>
+    <p>¿quieres activar el bluethoot</p>
+    <select name="sino">
+        <option value="" aria-label="bluet" disabled selected>seleccionar</option>
+        <option value="0">si</option>
+        <option value="1">no</option>
+    </select>
+    <br><br><br>
+    <label for="">
+        ¿Que color quieres?
+        <input type="text" name="color">
+       </label>
+       <br><br>
+       <button type="submit">
+            Enviar
+        </button>
+</body>
+</html>

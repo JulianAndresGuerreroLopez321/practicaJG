@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITAT26</title>
+</head>
+<body>
+    <h2>Buscador Avanzado de Cámaras de Fotos</h2>
+
+    <form action="#" method="GET">
+
+        <fieldset>
+            <legend>Información básica</legend>
+
+            <label for="marca">Marca:</label>
+            <select id="marca" name="marca">
+                <option value="">Selecciona</option>
+                <option value="canon">Canon</option>
+                <option value="nikon">Nikon</option>
+                <option value="sony">Sony</option>
+                <option value="fujifilm">Fujifilm</option>
+                <option value="panasonic">Panasonic</option>
+            </select>
+            <br><br>
+
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" placeholder="Ej: EOS R6">
+            <br><br>
+
+            <label for="tipo">Tipo de cámara:</label>
+            <select id="tipo" name="tipo">
+                <option value="">Selecciona</option>
+                <option value="reflex">Réflex (DSLR)</option>
+                <option value="mirrorless">Mirrorless</option>
+                <option value="compacta">Compacta</option>
+                <option value="bridge">Bridge</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Precio</legend>
+
+            <label for="precio_min">Precio mínimo (€):</label>
+            <input type="number" id="precio_min" name="precio_min" min="0">
+            <br><br>
+
+            <label for="precio_max">Precio máximo (€):</label>
+            <input type="number" id="precio_max" name="precio_max" min="0">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Especificaciones</legend>
+
+            <label for="resolucion">Resolución mínima (MP):</label>
+            <input type="number" id="resolucion" name="resolucion" min="1">
+            <br><br>
+
+            <label for="sensor">Tipo de sensor:</label>
+            <select id="sensor" name="sensor">
+                <option value="">Selecciona</option>
+                <option value="fullframe">Full Frame</option>
+                <option value="aps-c">APS-C</option>
+                <option value="micro43">Micro 4/3</option>
+
+</body>
+</html>

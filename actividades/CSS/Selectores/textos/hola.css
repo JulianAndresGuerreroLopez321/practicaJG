@@ -1,0 +1,24 @@
+body{
+    font-family: Georgia, serif;
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+.contenedor{
+    max-width: 900px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.resaltado{
+    background-color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,71 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* FONDO */
+body {
+    background: linear-gradient(135deg, #5a00ff, #b300ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENEDOR */
+.contenedor {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 380px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* TÍTULO */
+.titulo {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+/* BOTONES */
+.botonera {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    color: #5a00ff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #d9b3ff;
+    transform: scale(1.05);
+}
+
+/* BOTÓN VOLVER */
+.volver {
+    display: inline-block;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.volver:hover {
+    opacity: 1;
+}

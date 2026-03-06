@@ -1,0 +1,158 @@
+/* RESET GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-image: url(https://www.excelsior.edu/wp-content/uploads/2025/01/computer-programming-vs-computer-science-image_blog.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor-principal {
+  width: 70%;
+  background-image:url(https://media.istockphoto.com/id/911435400/es/foto/fondo-p%C3%BArpura-papel.jpg?s=612x612&w=0&k=20&c=EcpqeDjoFI5ED5xP0sZOFWEZGOrWiO1yOX6UZF49t-M=) ;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.encabezado {
+  width: 100%;
+  height: 180px; /* Ajusta la altura a tu gusto */
+  overflow: hidden;
+}
+
+
+.imagen-portada {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXTOS PRINCIPALES */
+.contenido-texto {
+  padding: 20px;
+}
+
+.bloque-texto {
+  margin-bottom: 20px;
+  background-color:#000000 ;
+  padding: 15px;
+  border-left: 4px solid #cc0088;
+  border-radius: 5px;
+}
+
+.bloque-texto p{
+  color:#ffffff ;
+}
+
+/* MENÚ DE ENLACES */
+.menu-enlaces {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  padding: 15px 0;
+}
+
+.boton-enlace {
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/15234738-textura-de-tecido-de-veludo-roxo-usada-como-plano-de-fundo-fundo-de-tecido-roxo-vazio-de-material-textil-macio-e-liso-ha-espaco-para-o-texto-gratis-foto.jpg);
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.boton-enlace a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.boton-enlace:hover {
+  background-color: #c300ff;
+}
+
+/* PANEL LATERAL */
+.panel-lateral {
+  width: 25%;
+  margin-left: 20px;
+  background-image: url(https://media.istockphoto.com/id/1076678292/es/foto/pastel-rosa-arrugado-color-textura-de-papel-para-el-fondo.jpg?s=612x612&w=0&k=20&c=acRzVy_Zxryb6IHy0CnQ3lN_iZjD32Qc8vF31y2PZc0=);
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imagen-perfil {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* CONTACTOS */
+.contacto-red {
+  margin-bottom: 20px;
+}
+
+.icono-red {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.link-red {
+  text-decoration: none;
+  color: #001320;
+  font-weight: bold;
+}
+
+.link-red:hover {
+  text-decoration: underline;
+}
+
+/* DETAILS Y METER */
+.bloque-datos details {
+  background-color: #10020e;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.bloque-datos summary {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color:#d773ff ;
+}
+
+.bloque-datos p{
+  color: #ffffff;
+}
+
+meter {
+  width: 100%;
+  height: 20px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 900px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-principal,
+  .panel-lateral {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .menu-enlaces {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

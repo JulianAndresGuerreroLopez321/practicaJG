@@ -1,0 +1,50 @@
+body {
+    font-family: "Georgia", serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.titulo {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 4px; 
+}
+
+.autor {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    word-spacing: 8px; 
+}
+
+.prologo-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+}
+
+.prologo {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 20px;
+    text-align: justify; 
+}

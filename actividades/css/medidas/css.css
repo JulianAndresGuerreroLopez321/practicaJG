@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 40px;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  background-color: #cfe8ff;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+
+.p1 { width: 20%; }
+.p2 { width: 35%; }
+.p3 { width: 50%; }
+.p4 { width: 65%; }
+.p5 { width: 80%; }

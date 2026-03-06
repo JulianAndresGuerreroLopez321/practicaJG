@@ -1,9 +1,0 @@
-.caja {
-    background-color: #c7e3ff; 
-    padding: 1rem;
-    max-height: 10rem; 
-    min-height: 5rem; 
-    overflow: auto;    
-    border-radius: 6px;
-    font-family: Arial, sans-serif;
-}

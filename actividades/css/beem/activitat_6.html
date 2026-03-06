@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Header completo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a5f;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+}
+
+input[type="search"] {
+    padding: 6px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+    <div class="logo">MiSitio</div>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <form>
+        <input type="search" placeholder="Buscar...">
+        <button type="submit">🔍</button>
+    </form>
+
+</header>
+
+</body>
+</html>
